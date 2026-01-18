@@ -1,0 +1,7 @@
+{
+  "name": "Puzzle Master S24",
+  "description": "A high-end jigsaw puzzle application designed for mobile devices. Upload your own photos, choose difficulty levels, and enjoy a seamless puzzle-solving experience with support for screen rotation.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
