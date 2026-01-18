@@ -3,10 +3,10 @@
   "name": "Puzzle Master S24",
   "short_name": "Puzzles",
   "description": "High-end Jigsaw Puzzles for S24 FE",
-  "start_url": ".",
-  "display": "standalone",
+  "start_url": "./index.html",
+  "display": "fullscreen",
   "background_color": "#0a0a0c",
-  "theme_color": "#6366f1",
+  "theme_color": "#0a0a0c",
   "orientation": "any",
   "icons": [
     {
@@ -15,5 +15,6 @@
       "type": "image/png",
       "purpose": "any maskable"
     }
-  ]
+  ],
+  "categories": ["games", "entertainment"]
 }

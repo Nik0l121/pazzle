@@ -1,23 +1,24 @@
+
 {
   "name": "puzzle-master-s24",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
-  },
+  "version": "1.0.0",
+  "description": "High-end puzzle game for S24 FE",
+  "main": "index.html",
   "dependencies": {
     "react": "^19.2.3",
     "react-dom": "^19.2.3",
+    "lucide-react": "^0.562.0",
     "@google/genai": "^1.37.0",
-    "lucide-react": "^0.562.0"
+    "@capacitor/core": "^5.0.0",
+    "@capacitor/android": "^5.0.0"
   },
   "devDependencies": {
-    "@types/node": "^22.14.0",
-    "@vitejs/plugin-react": "^5.0.0",
-    "typescript": "~5.8.2",
-    "vite": "^6.2.0"
+    "@capacitor/cli": "^5.0.0",
+    "typescript": "^5.0.0"
+  },
+  "scripts": {
+    "build": "tsc && vite build",
+    "sync": "cap sync android",
+    "open-android": "cap open android"
   }
 }
